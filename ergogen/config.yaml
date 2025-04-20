@@ -1,0 +1,36 @@
+meta:
+  engine: 4.1.0
+  author: Diablica
+  name: legendary-guacamole
+units:
+  kx: U
+  ky: U
+
+  px: 2
+  py: 2
+
+  # dont forget that choc v2 is essentially mx
+  plate_thickness: 1.5 # choc: 1.2, mx: 1.5
+  kcox: 14 # key cutout (choc: 13.8, mx: 14)
+  kcoy: 14 # key cutout (choc: 13.8, mx: 14)
+points:
+  zones:
+    matrix:
+      columns:
+        outer:
+          rows.top.skip: true
+        pinky:
+        ring:
+          key.stagger: u/3
+        middle:
+          key.stagger: u/3
+        index:
+          key.stagger: -u/3
+        inner:
+      rows:
+        bottom:
+        home:
+        top:
+outlines:
+pcbs:
+cases:
