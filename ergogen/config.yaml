@@ -31,6 +31,33 @@ points:
         bottom:
         home:
         top:
+    thumbs:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-u/2,-(4/3)u]
+      columns:
+        thumb_1:
+        thumb_2:
+          key:
+            rotate: -15
+            stagger: -1
+            spread: 25
+        thumb_3:
+          key:
+            rotate: -25
+            stagger: -8 
+            spread: 23
+        thumb_4:
+          key:
+            height: 2ky
+            rotate: -25
+            stagger: -18 
+            spread: 15
+      rows:
+        row_1:
+
+          
+
 outlines:
 pcbs:
 cases:
