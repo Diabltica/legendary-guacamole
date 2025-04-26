@@ -34,29 +34,21 @@ points:
     thumbs:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-u/2,-(4/3)u]
+        shift: [-14, -(7/3)u]
       columns:
         thumb_1:
         thumb_2:
-          key:
-            rotate: -15
-            stagger: -1
-            spread: 25
+          key.origin: [0, -9]
+          key.splay: -10
         thumb_3:
-          key:
-            rotate: -25
-            stagger: -8 
-            spread: 23
-        thumb_4:
-          key:
-            height: 2ky
-            rotate: -25
-            stagger: -18 
-            spread: 15
+          key.height: 2ky
+          key.origin: [-9.5, -9]
+          key.shift: [0,U/2]
+          rows.row_1.skip: true
+          key.splay: -10
       rows:
+        row_0:
         row_1:
-
-          
 
 outlines:
 pcbs:
