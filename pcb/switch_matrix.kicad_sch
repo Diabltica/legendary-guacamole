@@ -1,0 +1,4801 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "252f6fe5-a020-4163-9ddd-502e2c602172")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push_45deg"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_45deg"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_45deg_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 123.19 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "056f8e28-a99a-4427-b686-958b7824998f")
+	)
+	(junction
+		(at 199.39 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13684375-73c6-4f36-b1d8-ffaebdff400d")
+	)
+	(junction
+		(at 199.39 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13fd12b2-b114-4622-8842-7bd0bda399e6")
+	)
+	(junction
+		(at 97.79 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fbc372f-ae75-4ca8-af42-482e435b579c")
+	)
+	(junction
+		(at 148.59 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "235d78e6-e7e4-4016-8de8-ac41972fe38d")
+	)
+	(junction
+		(at 135.89 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32ed7d5a-31c7-444b-9d8c-9c477278ea94")
+	)
+	(junction
+		(at 85.09 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39cd0231-69b6-4c5a-81cc-59ac40b75a83")
+	)
+	(junction
+		(at 186.69 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3da43eba-ea53-4212-a3eb-56f65c91dcef")
+	)
+	(junction
+		(at 148.59 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f21e1c0-c33f-4958-adfd-284286526ab5")
+	)
+	(junction
+		(at 186.69 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ffd7ee1-dc57-45fd-a806-661d2505208a")
+	)
+	(junction
+		(at 173.99 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64303780-a767-4a09-a5aa-4ecb71d72d6c")
+	)
+	(junction
+		(at 199.39 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65f37829-126b-49c7-a68f-6afea9a2291e")
+	)
+	(junction
+		(at 173.99 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83c4e200-ce73-492a-bf62-f9286f3fbf17")
+	)
+	(junction
+		(at 173.99 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85fa7bac-14ab-4414-884f-643fdf098034")
+	)
+	(junction
+		(at 186.69 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87e4d2ba-e227-40f6-9847-af0bbc246443")
+	)
+	(junction
+		(at 173.99 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d339c65-8f96-486b-b000-b4aeaf96cabe")
+	)
+	(junction
+		(at 110.49 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90819151-db58-4d8e-a777-371ee3cb42ad")
+	)
+	(junction
+		(at 123.19 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99edd047-ea51-4ea7-9497-66989d0bb91f")
+	)
+	(junction
+		(at 110.49 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa3a2a85-a786-4e37-ab01-cde6b73b3020")
+	)
+	(junction
+		(at 148.59 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abac54f6-a273-447b-a466-b9a96dc96edd")
+	)
+	(junction
+		(at 161.29 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6a7cb44-ccf6-4ecd-94e2-4088858f097d")
+	)
+	(junction
+		(at 97.79 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3c735d7-8ab7-41d2-9532-43920906d492")
+	)
+	(junction
+		(at 173.99 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d92885ff-0af4-44ea-a32a-4fea304fb829")
+	)
+	(junction
+		(at 161.29 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbfe56f2-79a6-410d-bff3-9e3089853d76")
+	)
+	(junction
+		(at 161.29 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de9bd1d4-b40b-407c-930e-54239141bd85")
+	)
+	(junction
+		(at 161.29 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfa3f01a-91b6-4696-8311-e55ec1686aab")
+	)
+	(junction
+		(at 212.09 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfdc0125-da50-43cd-a39d-82c0aff32b17")
+	)
+	(junction
+		(at 186.69 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8fba84a-f2b5-43c2-a652-a5167880e311")
+	)
+	(junction
+		(at 135.89 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f11bb9f0-b079-4999-aa5d-4ebe8a91d2d7")
+	)
+	(junction
+		(at 212.09 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f15add66-6339-4051-9c91-5fbd6581b50c")
+	)
+	(junction
+		(at 123.19 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f45173a5-43e6-46f5-8eb4-14459d37d45a")
+	)
+	(junction
+		(at 199.39 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9440991-fd31-4b04-9d63-12c517a744e5")
+	)
+	(junction
+		(at 212.09 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa2c87d6-7e6a-43ff-96ee-32d34d1fe922")
+	)
+	(wire
+		(pts
+			(xy 148.59 59.69) (xy 148.59 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "06031b57-a97b-4064-85ae-50afce65875d")
+	)
+	(wire
+		(pts
+			(xy 97.79 80.01) (xy 97.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "069544fd-0eb1-4eb1-929d-5c1d9a3a03d4")
+	)
+	(wire
+		(pts
+			(xy 199.39 96.52) (xy 199.39 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0712e3bc-909c-453b-8483-45b28cf60ee7")
+	)
+	(wire
+		(pts
+			(xy 212.09 91.44) (xy 212.09 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8b6ee3-7629-46dc-8444-641be6c363a2")
+	)
+	(wire
+		(pts
+			(xy 199.39 121.92) (xy 199.39 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa20cd4-e7bb-4d0d-bd25-ac974265fb7e")
+	)
+	(wire
+		(pts
+			(xy 168.91 116.84) (xy 161.29 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fbca91e-2beb-4207-8b06-564088205449")
+	)
+	(wire
+		(pts
+			(xy 194.31 91.44) (xy 186.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d8f0da-4200-4434-8ad3-618c0bff1b70")
+	)
+	(wire
+		(pts
+			(xy 123.19 59.69) (xy 148.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "13817372-6b60-434b-9c80-2affde023d4e")
+	)
+	(wire
+		(pts
+			(xy 173.99 135.89) (xy 173.99 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "143709cb-3805-4301-a45d-d97f5e2f67a7")
+	)
+	(wire
+		(pts
+			(xy 148.59 110.49) (xy 148.59 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "196e833b-250e-4206-bbec-6c24cc05b6bc")
+	)
+	(wire
+		(pts
+			(xy 173.99 135.89) (xy 199.39 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "1b7f0b65-41fe-4f16-8b64-191bb518edb6")
+	)
+	(wire
+		(pts
+			(xy 173.99 161.29) (xy 199.39 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "1dc67331-ba04-40e4-8396-f3f2549aadee")
+	)
+	(wire
+		(pts
+			(xy 186.69 116.84) (xy 186.69 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b4804c-2bc2-4da7-8cfc-6c4f32ef9cee")
+	)
+	(wire
+		(pts
+			(xy 173.99 161.29) (xy 173.99 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "20cae38c-84ec-4b59-ba7c-f02e9d41db9d")
+	)
+	(wire
+		(pts
+			(xy 186.69 66.04) (xy 186.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2732f02a-008f-422d-aa8b-cc750ddc4ea2")
+	)
+	(wire
+		(pts
+			(xy 199.39 71.12) (xy 199.39 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c3c222-43b9-45b8-b159-ccbf4490effd")
+	)
+	(wire
+		(pts
+			(xy 123.19 80.01) (xy 123.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "28da208d-6624-4901-93d7-50141b1846a0")
+	)
+	(wire
+		(pts
+			(xy 161.29 40.64) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cdfcf97-5093-47f9-bf20-2c39b0434185")
+	)
+	(wire
+		(pts
+			(xy 97.79 85.09) (xy 123.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "2d311817-dc42-402b-9743-e2843d282eb1")
+	)
+	(wire
+		(pts
+			(xy 97.79 105.41) (xy 97.79 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "2f38adc0-4aa1-423c-8276-d420b0b5b10c")
+	)
+	(wire
+		(pts
+			(xy 168.91 91.44) (xy 161.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbf6943-4ecb-418d-b116-8dc01863032a")
+	)
+	(wire
+		(pts
+			(xy 212.09 40.64) (xy 212.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350ff075-898f-4683-a47e-bf408f586c19")
+	)
+	(wire
+		(pts
+			(xy 224.79 85.09) (xy 224.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "36c43d4d-e523-48b5-a989-36fc3067fe4d")
+	)
+	(wire
+		(pts
+			(xy 173.99 71.12) (xy 173.99 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3976b9db-b808-4425-a886-fa0162898e58")
+	)
+	(wire
+		(pts
+			(xy 92.71 66.04) (xy 85.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3baa8252-9360-4085-ab65-81960d2a45e3")
+	)
+	(wire
+		(pts
+			(xy 148.59 45.72) (xy 148.59 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccb5e1f-89a4-4285-a4e1-2d915020818e")
+	)
+	(wire
+		(pts
+			(xy 199.39 135.89) (xy 199.39 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "3d34032c-0239-457f-995a-ba5c4d77c3a1")
+	)
+	(wire
+		(pts
+			(xy 199.39 59.69) (xy 199.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "3d448163-dd33-43b3-b694-d3a41206bdc4")
+	)
+	(wire
+		(pts
+			(xy 161.29 66.04) (xy 161.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3edd56b8-0cfe-4660-b9cc-29e57ac2e644")
+	)
+	(wire
+		(pts
+			(xy 194.31 116.84) (xy 186.69 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409f7d55-ce75-4aca-8ff2-0bbbd272dff8")
+	)
+	(wire
+		(pts
+			(xy 219.71 91.44) (xy 212.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41409c92-9280-469f-a376-27d264dbb5a0")
+	)
+	(wire
+		(pts
+			(xy 168.91 40.64) (xy 161.29 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "496be967-976f-4ea3-875a-dc98611ce6a3")
+	)
+	(wire
+		(pts
+			(xy 148.59 110.49) (xy 173.99 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "4a597bdc-9dcd-4d72-b5f6-81680407fef6")
+	)
+	(wire
+		(pts
+			(xy 212.09 66.04) (xy 212.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4efa2b9d-296a-40d7-a11b-c8aaff620740")
+	)
+	(wire
+		(pts
+			(xy 199.39 161.29) (xy 199.39 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "51fa596d-a501-4720-b9f8-64315e663a2c")
+	)
+	(wire
+		(pts
+			(xy 118.11 40.64) (xy 110.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cf48fc-e171-4391-a57b-d98e45858eef")
+	)
+	(wire
+		(pts
+			(xy 186.69 40.64) (xy 186.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57625d03-2307-4f6f-be2a-96d6bf93b250")
+	)
+	(wire
+		(pts
+			(xy 110.49 66.04) (xy 110.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a20f1a3-5253-4d7f-90ac-9448be27b06c")
+	)
+	(wire
+		(pts
+			(xy 168.91 66.04) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdefaa3-103e-413e-aca1-d9b87a19db31")
+	)
+	(wire
+		(pts
+			(xy 173.99 85.09) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "5ce40c09-bd8d-4fb4-b12b-b04dc4bcc154")
+	)
+	(wire
+		(pts
+			(xy 199.39 59.69) (xy 224.79 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "5e4c0d19-b556-498a-ae6e-ead19d25b99c")
+	)
+	(wire
+		(pts
+			(xy 135.89 40.64) (xy 135.89 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef8b6d3-b407-45aa-b2d7-84a30a19e7c0")
+	)
+	(wire
+		(pts
+			(xy 69.85 110.49) (xy 97.79 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "63b809da-deb6-4e18-8069-2c03e1c5c9c5")
+	)
+	(wire
+		(pts
+			(xy 143.51 40.64) (xy 135.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6504238f-f67c-4272-9a4c-3b8bb28c3194")
+	)
+	(wire
+		(pts
+			(xy 123.19 85.09) (xy 148.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "660ae2cb-f7bf-4916-9d9f-e03d6db1f3f1")
+	)
+	(wire
+		(pts
+			(xy 173.99 45.72) (xy 173.99 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67037889-2e6e-44a2-ae5c-41caa222418c")
+	)
+	(wire
+		(pts
+			(xy 224.79 59.69) (xy 224.79 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "6bee50e0-a7e6-4e7f-b0f8-71a5388ac1ef")
+	)
+	(wire
+		(pts
+			(xy 118.11 91.44) (xy 110.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c416aef-57f9-45cc-be91-98da9378a028")
+	)
+	(wire
+		(pts
+			(xy 143.51 91.44) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702a5e26-cc7c-4c27-8620-09ffb61b207e")
+	)
+	(wire
+		(pts
+			(xy 69.85 85.09) (xy 97.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "708baa6a-c2ee-4041-b8bf-f8900890c3c4")
+	)
+	(wire
+		(pts
+			(xy 173.99 147.32) (xy 173.99 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71123abe-8199-40c1-9533-4b92269ca802")
+	)
+	(wire
+		(pts
+			(xy 199.39 147.32) (xy 199.39 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7323f055-914a-45ce-92f5-c3c7df05e22b")
+	)
+	(wire
+		(pts
+			(xy 123.19 105.41) (xy 123.19 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "7596f90a-52f6-4684-b8a7-2d353cccb921")
+	)
+	(wire
+		(pts
+			(xy 135.89 31.75) (xy 135.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783e8720-391e-44ac-9ac4-70ea92c1c4c3")
+	)
+	(wire
+		(pts
+			(xy 161.29 116.84) (xy 161.29 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b1469e-d400-4a56-b7cd-c53350f00f65")
+	)
+	(wire
+		(pts
+			(xy 219.71 40.64) (xy 212.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79fe2de8-16b2-474d-a8b3-acab96e91d4c")
+	)
+	(wire
+		(pts
+			(xy 69.85 161.29) (xy 173.99 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "7f610bc1-de4d-4fdf-80f8-d5b8412d101d")
+	)
+	(wire
+		(pts
+			(xy 224.79 110.49) (xy 224.79 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "7f76d98e-8f19-4f18-bfc1-b874889977a1")
+	)
+	(wire
+		(pts
+			(xy 219.71 66.04) (xy 212.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdebbf9-248a-4f31-90c8-dd0bb9e2ca5e")
+	)
+	(wire
+		(pts
+			(xy 143.51 66.04) (xy 135.89 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e919ab-1b32-4474-a625-b1a85b954c43")
+	)
+	(wire
+		(pts
+			(xy 173.99 59.69) (xy 173.99 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "81fdc03a-9e78-4865-8ed2-9dbf46aaac02")
+	)
+	(wire
+		(pts
+			(xy 85.09 31.75) (xy 85.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b834d96-6d8e-4bc3-af78-1565dc4ef343")
+	)
+	(wire
+		(pts
+			(xy 85.09 66.04) (xy 85.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9030ed9b-db03-4a07-8cb0-98660c985f23")
+	)
+	(wire
+		(pts
+			(xy 148.59 96.52) (xy 148.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97935929-abbc-42b4-a67d-0ee56f8ebf0f")
+	)
+	(wire
+		(pts
+			(xy 199.39 85.09) (xy 199.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "987827a5-d005-42ff-9b74-89e47892b74c")
+	)
+	(wire
+		(pts
+			(xy 224.79 161.29) (xy 224.79 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "98c791b6-81c7-4337-94b6-3c640dbb52b4")
+	)
+	(wire
+		(pts
+			(xy 194.31 40.64) (xy 186.69 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f556b7-5b4e-4593-8e3d-b34a91dd085b")
+	)
+	(wire
+		(pts
+			(xy 123.19 96.52) (xy 123.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997699c0-d88a-41d6-98c5-27a682cb212d")
+	)
+	(wire
+		(pts
+			(xy 110.49 40.64) (xy 110.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4a81ff-cd3a-47af-b1e7-b42d3891b2e0")
+	)
+	(wire
+		(pts
+			(xy 148.59 85.09) (xy 148.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "9d201923-d66b-47e2-b4a7-e7e875d3911f")
+	)
+	(wire
+		(pts
+			(xy 173.99 96.52) (xy 173.99 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f40ba02-b35a-44bf-854c-d24a256ae59f")
+	)
+	(wire
+		(pts
+			(xy 123.19 110.49) (xy 148.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "a2885253-773c-4ce3-9c1c-0ae6183b1340")
+	)
+	(wire
+		(pts
+			(xy 173.99 85.09) (xy 199.39 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "af252c64-5684-4789-8c33-87a6bab11fe4")
+	)
+	(wire
+		(pts
+			(xy 199.39 110.49) (xy 199.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "b0bad856-0425-474a-bf6f-f15197e1c499")
+	)
+	(wire
+		(pts
+			(xy 173.99 59.69) (xy 199.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "b44bb981-389e-4460-b39d-582fdda6975a")
+	)
+	(wire
+		(pts
+			(xy 224.79 45.72) (xy 224.79 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51eac29-f3e7-4651-b2a4-795d96170443")
+	)
+	(wire
+		(pts
+			(xy 194.31 142.24) (xy 186.69 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88a903d-263d-47c8-8d62-f1db2325c575")
+	)
+	(wire
+		(pts
+			(xy 219.71 142.24) (xy 212.09 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba802ff6-9b43-4578-9966-f42487cc054c")
+	)
+	(wire
+		(pts
+			(xy 69.85 59.69) (xy 123.19 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "ba8a5bec-cd69-4e84-adb5-6287cf9b28d2")
+	)
+	(wire
+		(pts
+			(xy 224.79 71.12) (xy 224.79 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad44113-0f65-4e56-bfda-3ad73235a36b")
+	)
+	(wire
+		(pts
+			(xy 161.29 31.75) (xy 161.29 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb08fe94-932a-481c-82ce-08ad09e76d83")
+	)
+	(wire
+		(pts
+			(xy 199.39 110.49) (xy 224.79 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "bcccdff6-0960-4652-8798-28c287cfc309")
+	)
+	(wire
+		(pts
+			(xy 97.79 97.79) (xy 97.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf0ff46-3a90-426b-b9e5-10e8d8b5fe1b")
+	)
+	(wire
+		(pts
+			(xy 123.19 71.12) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c869a97b-c740-4275-a882-b155260109a2")
+	)
+	(wire
+		(pts
+			(xy 186.69 31.75) (xy 186.69 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca232b1f-3abb-4302-ac3c-5458717a8258")
+	)
+	(wire
+		(pts
+			(xy 97.79 72.39) (xy 97.79 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1df359-3721-448c-9add-6153c2de221f")
+	)
+	(wire
+		(pts
+			(xy 199.39 45.72) (xy 199.39 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc1e354-2138-45fa-92f5-c5a39c47a4b6")
+	)
+	(wire
+		(pts
+			(xy 173.99 110.49) (xy 199.39 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "ccd0717e-1b8e-472d-8fe0-93920d6db618")
+	)
+	(wire
+		(pts
+			(xy 212.09 31.75) (xy 212.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccec5e2c-a75b-4e04-8968-da3700ed436c")
+	)
+	(wire
+		(pts
+			(xy 199.39 85.09) (xy 224.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "cda79ec0-455a-461a-97ee-824a761865bf")
+	)
+	(wire
+		(pts
+			(xy 123.19 45.72) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25fa2a3-8281-4d08-bb2d-89b53822b84b")
+	)
+	(wire
+		(pts
+			(xy 97.79 110.49) (xy 123.19 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "d42639b0-88a2-4623-b713-4ceb3af81ef5")
+	)
+	(wire
+		(pts
+			(xy 224.79 96.52) (xy 224.79 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4af2846-cd9e-4f05-94ee-0de97eaaed1c")
+	)
+	(wire
+		(pts
+			(xy 135.89 66.04) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f2584e-62db-454e-ba73-67c364892fe2")
+	)
+	(wire
+		(pts
+			(xy 110.49 31.75) (xy 110.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9069fc5-8b75-41aa-917c-af0338efaada")
+	)
+	(wire
+		(pts
+			(xy 69.85 135.89) (xy 173.99 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "dc5970c6-a689-4e6b-9349-d8621e850183")
+	)
+	(wire
+		(pts
+			(xy 148.59 59.69) (xy 173.99 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "e1b8c2f1-76a1-40bb-bc51-c40d7b4e47c9")
+	)
+	(wire
+		(pts
+			(xy 92.71 91.44) (xy 85.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e512438c-56a3-42fc-8fa9-177037fa887b")
+	)
+	(wire
+		(pts
+			(xy 173.99 121.92) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c04745-e20b-42b2-bd33-1ba20dafb341")
+	)
+	(wire
+		(pts
+			(xy 199.39 161.29) (xy 224.79 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "e5dfd2e8-c07a-43e7-8888-36e94b3b7b1f")
+	)
+	(wire
+		(pts
+			(xy 118.11 66.04) (xy 110.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73b60eb-d1f9-40d9-a723-df6518a45c94")
+	)
+	(wire
+		(pts
+			(xy 148.59 85.09) (xy 173.99 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "eeb7bd78-4170-4edd-b6f7-e3a539b9f21b")
+	)
+	(wire
+		(pts
+			(xy 194.31 66.04) (xy 186.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ac63a0-1a7c-49d9-9dee-b73c2a8048b7")
+	)
+	(wire
+		(pts
+			(xy 148.59 71.12) (xy 148.59 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23c0e03-8229-41ee-9a92-aa1496895df1")
+	)
+	(wire
+		(pts
+			(xy 186.69 91.44) (xy 186.69 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d45751-9768-4b0a-87c1-b59cccbb504d")
+	)
+	(wire
+		(pts
+			(xy 224.79 147.32) (xy 224.79 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e688cb-b2fc-4242-a4d9-248b6d32bcd8")
+	)
+	(wire
+		(pts
+			(xy 168.91 142.24) (xy 161.29 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f694a10b-0f22-4243-8002-b3c3a3fe045a")
+	)
+	(wire
+		(pts
+			(xy 173.99 110.49) (xy 173.99 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "f79085df-77d8-4427-8ce5-57523894ff56")
+	)
+	(wire
+		(pts
+			(xy 161.29 91.44) (xy 161.29 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc44725-5178-468a-b8f1-f6fb78bbf6b7")
+	)
+	(wire
+		(pts
+			(xy 123.19 54.61) (xy 123.19 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "fe896957-f043-49ba-ad03-6b7fedc46175")
+	)
+	(hierarchical_label "P8"
+		(shape input)
+		(at 69.85 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b54c44b-24d3-4fb4-be1b-afd4ef584bc9")
+	)
+	(hierarchical_label "P1"
+		(shape input)
+		(at 110.49 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20f93ba4-f45c-4f7d-a5f3-7ed2405d68cd")
+	)
+	(hierarchical_label "P2"
+		(shape input)
+		(at 135.89 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d1dc477-4ecf-47b9-a49b-6a1cc6d31898")
+	)
+	(hierarchical_label "P9"
+		(shape input)
+		(at 69.85 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66689326-09a7-4c6a-811d-538e538fcd56")
+	)
+	(hierarchical_label "P5"
+		(shape input)
+		(at 212.09 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80fd3247-40c3-4de8-9ae1-947f4e91b4b3")
+	)
+	(hierarchical_label "P3"
+		(shape input)
+		(at 161.29 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88779ba5-81ff-4e05-aa3c-63d0eaa39491")
+	)
+	(hierarchical_label "P4"
+		(shape input)
+		(at 186.69 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c15787b-68a0-4700-b9f7-ac80c630acb4")
+	)
+	(hierarchical_label "P6"
+		(shape input)
+		(at 69.85 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a41512f5-3b09-496e-8698-ea29dd09a3af")
+	)
+	(hierarchical_label "P0"
+		(shape input)
+		(at 85.09 31.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad182a45-aef4-4b86-963d-a242ee8fee2b")
+	)
+	(hierarchical_label "P10"
+		(shape input)
+		(at 69.85 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b36d36d4-ca49-4044-b66a-d1a203e0c735")
+	)
+	(hierarchical_label "P7"
+		(shape input)
+		(at 69.85 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e89d8553-2330-46d5-981b-ea4a3b9c860e")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 171.45 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07b6c6d1-efb8-4890-83ce-a63926d8d028")
+		(property "Reference" "S18"
+			(at 171.45 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 171.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 171.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "409be707-83ff-4ade-81bb-7d89cafe8f6f")
+		)
+		(pin "1"
+			(uuid "de07915f-99de-4fe6-978d-71c21bc8b1cf")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 222.25 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a649b83-8443-4e48-ad89-8b2de03bbd4b")
+		(property "Reference" "S17"
+			(at 222.25 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 222.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82e96001-d277-430e-9d72-df6cfcbbfd10")
+		)
+		(pin "1"
+			(uuid "9656268e-a19f-4765-94a5-e7756f940f24")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 97.79 76.2 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "163b9683-6189-453b-94b5-8b4ad531f6c7")
+		(property "Reference" "D2"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18b040df-e8b4-44d1-974a-b9229d63f650")
+		)
+		(pin "1"
+			(uuid "466ccad8-0bf3-4362-b062-bfd28e71700f")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 120.65 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a6ff770-9f2f-4f3f-a089-3b460a558f9a")
+		(property "Reference" "S3"
+			(at 120.65 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 120.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6aef3d1-01ec-4287-9357-58f62a7f2a90")
+		)
+		(pin "1"
+			(uuid "acf24f56-5822-455a-841a-3790dc99864e")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 148.59 76.2 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b86f54c-40de-4296-b256-e1f5dd6c0372")
+		(property "Reference" "D7"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0540fcb-ec1c-40c0-98e7-6b364c5e7cb2")
+		)
+		(pin "1"
+			(uuid "1d3a11bb-74eb-4249-84fd-9c4f3f22f942")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 123.19 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fe5e00e-feed-49ee-bd44-0c655f0d16b1")
+		(property "Reference" "D3"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae93acb5-9e68-49b4-b1d8-b469d306dc00")
+		)
+		(pin "1"
+			(uuid "88951430-3626-4b7b-b3f0-83d05daa6734")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 196.85 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "216a1cd1-591b-40aa-a8d0-d102bab2ff27")
+		(property "Reference" "S20"
+			(at 196.85 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 196.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 196.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d19e39a-d573-4a65-a0f7-27bfb904b18c")
+		)
+		(pin "1"
+			(uuid "03c9159f-b5b1-4a20-bda8-e9866f5f9f7e")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 199.39 50.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23be0ffd-fbdd-46f8-a59a-71b0d9d88e5f")
+		(property "Reference" "D14"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 199.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6c04b36-571a-4d48-a23a-c85155adf8c4")
+		)
+		(pin "1"
+			(uuid "1ae4c3f5-3639-4563-b315-4f47f928ef0a")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 171.45 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fba4870-860a-4cfc-b27d-708f1459c969")
+		(property "Reference" "S10"
+			(at 171.45 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 171.45 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 171.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44f4036f-35aa-48e8-80c7-2c99ec705ce6")
+		)
+		(pin "1"
+			(uuid "ac98736c-b91d-4fc6-9d1b-9e4945f96b50")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 120.65 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45700ad0-8ce5-42f7-a01c-19b811a1f34f")
+		(property "Reference" "S4"
+			(at 120.65 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 120.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb0ff2ec-fc57-428c-a86a-372ddba6bd61")
+		)
+		(pin "1"
+			(uuid "c44abbe8-d26e-4a0e-94ae-f5e76b356fc9")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 171.45 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4af96250-bdf0-4431-b898-da74ff226b33")
+		(property "Reference" "S19"
+			(at 171.45 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 171.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d24ca32a-7823-4c81-be9e-d222d8fb2240")
+		)
+		(pin "1"
+			(uuid "dbb2c25c-80e6-4de3-b1e5-777bc71f92a4")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 224.79 76.2 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e1d48da-eec1-4cba-acf7-93c23ca1253c")
+		(property "Reference" "D16"
+			(at 228.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 228.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 224.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "183809c2-526b-44cc-badd-9c7246f853b0")
+		)
+		(pin "1"
+			(uuid "f6633d13-2a11-4a8d-a8d1-e0ecc68fbcf7")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 120.65 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "503264ae-e23e-47e4-b6cc-43b8398db489")
+		(property "Reference" "S5"
+			(at 120.65 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 120.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 120.65 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81d9a529-f8c4-40d4-95fd-0bb1837c7aba")
+		)
+		(pin "1"
+			(uuid "ad7ca4c1-2c4e-4be2-bb72-f033b64e7fbb")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 224.79 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b5f7046-b24a-4820-a8ab-c4c7cc4cb10a")
+		(property "Reference" "D15"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 224.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16bb8e36-4be8-4225-990b-38a8e9a867ba")
+		)
+		(pin "1"
+			(uuid "2f352e87-2c90-4181-93c1-bf5dcd847b0d")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 123.19 76.2 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b38b63b-538c-47c0-a214-22a52d45cdfd")
+		(property "Reference" "D4"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 123.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c45836c8-c8d8-4cf6-bff7-19da4dc80530")
+		)
+		(pin "1"
+			(uuid "c39fd0d1-c6d3-4c7a-b9ec-5c3608785e96")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 173.99 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c064a73-a9d7-45b9-8815-c8e3960a42dd")
+		(property "Reference" "D9"
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38857f98-0986-4cee-af0a-0660ccc4f076")
+		)
+		(pin "1"
+			(uuid "fda2e6e8-0fdb-4cf6-827c-0287bda83bd6")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 148.59 50.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d3aa103-3cae-4b8d-ac38-f17a226217e4")
+		(property "Reference" "D8"
+			(at 144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7ff2a3d-118e-44b8-8236-24e93cd92bb7")
+		)
+		(pin "1"
+			(uuid "9389c188-d319-40fc-96a2-c8960a2845e6")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 196.85 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "787729d4-6330-4df0-bf52-e25d8c28922f")
+		(property "Reference" "S14"
+			(at 196.85 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 196.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a05141d-2ca4-4cc5-ad42-1c72b46b980a")
+		)
+		(pin "1"
+			(uuid "cae08c5b-0f35-4b56-bf71-f1442da5247b")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 222.25 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c310ecd-84ba-4686-8dcc-b9d8b4714f5e")
+		(property "Reference" "S15"
+			(at 222.25 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 222.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09971fca-f370-4a68-8a7c-c8df91b19afa")
+		)
+		(pin "1"
+			(uuid "91a51c58-181e-4a5e-be6c-78ba8d0c1a29")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 173.99 50.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89fa790e-f55f-4b3a-baa0-3af46aaa0d00")
+		(property "Reference" "D11"
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 173.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63f82cbb-eda4-4881-9798-395914df81e7")
+		)
+		(pin "1"
+			(uuid "e10b4b78-9ded-4d54-8b09-6f554d80d116")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 222.25 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a9388aa-734a-4bd2-820b-ca5fa65cef91")
+		(property "Reference" "S22"
+			(at 222.25 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 222.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 222.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17a3bb53-1ab2-438d-81f0-046be98f5892")
+		)
+		(pin "1"
+			(uuid "328322fd-cff6-4153-a8c9-cacc90df1a6b")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 171.45 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "911ceb95-e5e0-486e-b0d7-0bab35fada7a")
+		(property "Reference" "S9"
+			(at 171.45 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 171.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d2a79c9-5900-4859-99a0-91371198ff30")
+		)
+		(pin "1"
+			(uuid "1ca68c5a-4693-414c-a028-ad0965322624")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 173.99 152.4 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92b859a1-1f9e-4a96-a3e2-e5daa25c0f3b")
+		(property "Reference" "D18"
+			(at 177.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 177.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 173.99 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b0e8b8f-6c13-4bcb-91c3-b020e5b69e30")
+		)
+		(pin "1"
+			(uuid "92eef396-5fee-4ec3-b957-cfbf69ddf7bd")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 196.85 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98b62d6a-4b53-4a09-ae51-585962f580c0")
+		(property "Reference" "S12"
+			(at 196.85 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 196.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5415233d-4b25-4e2e-9c55-7b52a7915dac")
+		)
+		(pin "1"
+			(uuid "507a5d43-f5da-4785-850d-a74c65d8b863")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 171.45 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c412eb4-b776-4992-9833-5f189d3e8967")
+		(property "Reference" "S11"
+			(at 171.45 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 171.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 171.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3cf66396-3b8f-45f9-bdbc-d58537d6c02f")
+		)
+		(pin "1"
+			(uuid "ac0d0c35-0624-4acf-be4e-8a7987884ac6")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 199.39 152.4 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a762a299-e02c-4c7d-98d3-060d67796e0d")
+		(property "Reference" "D20"
+			(at 195.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 199.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d642554c-e572-44cd-9e4e-1836c7f9af32")
+		)
+		(pin "1"
+			(uuid "9c376a44-bf05-419e-88b7-0d763d501916")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 196.85 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a766cccd-7b3c-4cf9-a57f-37529269eeeb")
+		(property "Reference" "S21"
+			(at 196.85 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 196.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 196.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05679aaa-58fe-4b97-9138-da413d5f3362")
+		)
+		(pin "1"
+			(uuid "0055dd6d-e73f-4b9b-9d8e-348db448369c")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 196.85 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa8d0eb1-a6f9-4018-ae9e-6c85235f7365")
+		(property "Reference" "S13"
+			(at 196.85 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04a3e117-c800-4ea1-8bb8-54c891790060")
+		)
+		(pin "1"
+			(uuid "a54fd2e7-aa39-4c06-bf42-41db1f060818")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 97.79 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aab351ec-c7e6-4a75-ad32-580aa10c85bb")
+		(property "Reference" "D1"
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 97.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "996cb4ee-4117-4e1c-bf6a-dee5f039ed18")
+		)
+		(pin "1"
+			(uuid "3e6587b4-0ad0-4b29-9b9b-e997f1f749f1")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 146.05 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad7af98a-4700-4858-a8cd-fd6ee8fffdb1")
+		(property "Reference" "S7"
+			(at 146.05 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 146.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39f5f82e-f8b6-4fa2-84b7-3e84104bb0b8")
+		)
+		(pin "1"
+			(uuid "754f7643-b711-4b24-9de2-67e99b112baf")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 224.79 152.4 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0bcf8f1-a702-4f7d-a3b0-8023f78175c3")
+		(property "Reference" "D22"
+			(at 228.6 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 228.6 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 224.79 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b22b884c-e2e3-4f01-846b-bf599c1fd819")
+		)
+		(pin "1"
+			(uuid "a615bd65-62b7-488b-857c-6493e4ef76d4")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 173.99 76.2 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b15f3981-a087-4d63-af9a-f3207d8c6e9b")
+		(property "Reference" "D10"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c8caf0c-7360-49f8-8320-9b6504de8dd7")
+		)
+		(pin "1"
+			(uuid "72f537c7-a932-428d-a610-987627f0138c")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 199.39 127 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b52b8be0-3c6e-4c85-b995-fa4eedbf8191")
+		(property "Reference" "D21"
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 199.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28ce673b-fbeb-4956-bc79-fd9604069961")
+		)
+		(pin "1"
+			(uuid "e86a761f-5d95-4067-810d-c3c2b7b0d7af")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 146.05 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbf9dabb-f693-4b52-bacb-5747c61b3fe2")
+		(property "Reference" "S8"
+			(at 146.05 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 146.05 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 146.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "385253b8-a12e-430e-a9eb-cada1d66de83")
+		)
+		(pin "1"
+			(uuid "2739e963-1ea7-47b1-8712-23d65a05683c")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 222.25 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd4e66be-60a4-453e-ac9e-b78824978f14")
+		(property "Reference" "S16"
+			(at 222.25 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 222.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 222.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e03a1316-86ed-4e90-adfd-a472f6a4ac92")
+		)
+		(pin "1"
+			(uuid "19136804-9a04-4267-8e94-05e557d4a100")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 95.25 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2bb681d-eef6-4113-83e7-fba62a622338")
+		(property "Reference" "S2"
+			(at 95.25 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 95.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b751d9b-1d58-4d0a-b37a-357cbac71687")
+		)
+		(pin "1"
+			(uuid "d737e57c-90ed-4948-b2d3-58c2bd621756")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 123.19 50.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d354abcb-4862-44a7-baa6-b3d52cd9b3e9")
+		(property "Reference" "D5"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fa898c4-16af-4d61-ba18-1773434b3ba3")
+		)
+		(pin "1"
+			(uuid "2bafe1f5-b651-4801-980b-ae05120ca436")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 173.99 127 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4d6bf34-b945-4405-9743-d7d5bfab1f0d")
+		(property "Reference" "D19"
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 173.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5375c5e0-ea57-41ff-8511-d858ad00026a")
+		)
+		(pin "1"
+			(uuid "6ea60e80-96dc-4162-b605-10583c6413b3")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 224.79 50.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6923bee-7824-4453-9957-84bc9ed04585")
+		(property "Reference" "D17"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 224.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a3a83df-faab-4a26-916e-f5fcf5301105")
+		)
+		(pin "1"
+			(uuid "674e15e5-9887-4e30-af7d-0fb45508263a")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 148.59 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd1dc94b-92b3-450a-b6ff-faaeea436e41")
+		(property "Reference" "D6"
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5978cdfc-3b82-4035-bc0f-b2793c193d93")
+		)
+		(pin "1"
+			(uuid "38c39ed9-fc4f-4429-9aba-6e573d9ff11a")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 199.39 76.2 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e971fc73-34a4-4976-9950-662db7f6befd")
+		(property "Reference" "D13"
+			(at 203.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a852d2dc-d780-420d-9ba6-48a231e66337")
+		)
+		(pin "1"
+			(uuid "00d0739d-c810-4eb5-adac-db83bb54a3eb")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 146.05 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea57d60d-00e4-4743-b19e-08894ec7b71b")
+		(property "Reference" "S6"
+			(at 146.05 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b894e0fb-c37c-449c-9eb6-8561dba9d89f")
+		)
+		(pin "1"
+			(uuid "8de27eea-170a-4120-9cd1-7abd6da62e66")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 199.39 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eff2c020-8cc9-4382-8c7a-07b56ff51644")
+		(property "Reference" "D12"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d44df619-5ca3-4e80-b6a1-ae49e01a3e67")
+		)
+		(pin "1"
+			(uuid "83884467-2823-4dca-8549-40a3d2250c55")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 95.25 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd855799-2775-44ef-9823-70c69e9c6316")
+		(property "Reference" "S1"
+			(at 95.25 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 95.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a5643d1-14c6-43d4-a48c-052da0a74ce8")
+		)
+		(pin "1"
+			(uuid "1bddbb2b-ede1-41b2-95e9-908ec886c954")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

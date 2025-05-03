@@ -6,8 +6,8 @@ units:
   kx: U
   ky: U
 
-  px: kx + 4
-  py: ky + 4
+  px: 2
+  py: 2
 
   # dont forget that choc v2 is essentially mx
   plate_thickness: 1.5 # choc: 1.2, mx: 1.5
@@ -54,7 +54,7 @@ points:
           key.splay: -10
           key.column_net: P4
         thumb_3:
-          key.height: 1.75ky
+          key.height: 2ky
           key.origin: [-9.5, -9]
           key.shift: [0,U/2]
           rows.row_1.skip: true
@@ -67,64 +67,6 @@ points:
           row_net: P9
 
 outlines:
-  keys:
-    - what: rectangle
-      where: true
-      bound: false
-      size: [kx-0.5,ky-0.5]
-  board:
-    - what: polygon
-      operation: stack
-      points:
-        - ref: matrix_outer_home
-          shift: [-0.5px,0.5py]
-        - ref: matrix_pinky_top
-          shift: [-0.5px,0.5py]
-        - ref: matrix_ring_top
-          shift: [-0.5px,0.5py]
-        - ref: matrix_middle_top
-          shift: [-0.5px,0.5py]
-        - ref: matrix_middle_top
-          shift: [0.5px,0.5py]
-        - ref: matrix_index_top
-          shift: [0.5px,0.5py]
-        - ref: matrix_inner_top
-          shift: [0.5px,0.5py]
-        - ref: matrix_inner_bottom
-          shift: [0.5px,-0.5py]
-        - ref: thumbs_thumb_2_row_1
-          shift: [0.5px,0.5py]
-        - ref: thumbs_thumb_3_row_0
-          shift: [0.5px,0.5py]
-        - ref: thumbs_thumb_3_row_0
-          shift: [0.5px,-0.5py]
-        - ref: thumbs_thumb_2_row_0
-          shift: [0.5px,-0.5py]
-        - ref: thumbs_thumb_1_row_0
-          shift: [0.5px,-0.5py]
-        - ref: thumbs_thumb_1_row_0
-          shift: [-0.5px,-0.5py]
-        - ref: thumbs_thumb_1_row_0
-          shift: [-0.5px,-0.5py]
-        - ref: matrix_pinky_bottom
-          shift: [-0.5px,-0.5py]
-        - ref: matrix_outer_bottom
-          shift: [-0.5px,-0.5py]
-      fillet: 5
-  combo:
-    - name: board
-    - operation: stack
-      name: keys
-  plate:
-    - what: rectangle
-      where: true
-      bound: false
-      size: [kcox, kcoy]
-
-  combo_plate:
-    - name: board
-    - operation: stack
-      name: plate
 pcbs:
   legendaryGuacamole_pcb:
     footprints:

@@ -1,0 +1,143 @@
+meta:
+    engine: 4.1.0
+    author: Diablica
+    name: legendary-guacamole
+units:
+    kx: U
+    ky: U
+    px: 2
+    py: 2
+    plate_thickness: 1.5
+    kcox: 14
+    kcoy: 14
+points:
+    zones:
+        matrix:
+            anchor:
+                shift:
+                    - 100
+                    - 100
+            columns:
+                outer:
+                    rows:
+                        top:
+                            skip: true
+                    key:
+                        column_net: P0
+                pinky:
+                    key:
+                        column_net: P1
+                ring:
+                    key:
+                        stagger: u/3
+                        column_net: P2
+                middle:
+                    key:
+                        stagger: u/3
+                        column_net: P3
+                index:
+                    key:
+                        stagger: '-u/3'
+                        column_net: P4
+                inner:
+                    key:
+                        column_net: P5
+            rows:
+                bottom:
+                    row_net: P8
+                home:
+                    row_net: P7
+                top:
+                    row_net: P6
+        thumbs:
+            anchor:
+                ref: matrix_inner_bottom
+                shift:
+                    - -14
+                    - '-(7/3)u'
+            columns:
+                thumb_1:
+                    key:
+                        column_net: P3
+                thumb_2:
+                    key:
+                        origin:
+                            - 0
+                            - -9
+                        splay: -10
+                        column_net: P4
+                thumb_3:
+                    key:
+                        height: 2ky
+                        origin:
+                            - -9.5
+                            - -9
+                        shift:
+                            - 0
+                            - U/2
+                        splay: -10
+                        column_net: P5
+                    rows:
+                        row_1:
+                            skip: true
+            rows:
+                row_0:
+                    row_net: P10
+                row_1:
+                    row_net: P9
+outlines: null
+pcbs:
+    legendaryGuacamole_pcb:
+        footprints:
+            mx:
+                what: mx
+                where: true
+                params:
+                    keycaps: true
+                    reverse: true
+                    hotswap: true
+                    from: '{{column_net}}'
+                    to: '{{colrow}}'
+            diode:
+                what: diode
+                where: true
+                params:
+                    from: '{{colrow}}'
+                    to: '{{row_net}}'
+                adjust:
+                    shift:
+                        - 0
+                        - -5
+            battery_connector:
+                what: ceoloide/battery_connector_jst_ph_2
+                params:
+                    BAT_P: BAT_P
+                    BAT_N: GND
+                    reversible: true
+                    include_courtyard: false
+                where:
+                    ref: matrix_inner_home
+                    shift:
+                        - 0
+                        - 0.75ky
+                    rotate: -90
+            reset:
+                what: button
+                params:
+                    from: GND
+                    to: RST
+                where:
+                    ref: matrix_inner_top
+                    shift:
+                        - 0
+                        - -1
+                    rotate: -90
+            xiao:
+                what: mcu/xiao
+                where:
+                    ref: matrix_inner_top
+                    shift:
+                        - 0
+                        - 0
+                    rotate: 0
+cases: null
