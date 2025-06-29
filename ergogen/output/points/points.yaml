@@ -1,6 +1,6 @@
 matrix_outer_bottom:
     x: 100
-    'y': 100
+    'y': -100
     r: 0
     meta:
         stagger: 0
@@ -85,7 +85,7 @@ matrix_outer_bottom:
             - 0
 matrix_outer_home:
     x: 100
-    'y': 119
+    'y': -81
     r: 0
     meta:
         stagger: 0
@@ -170,7 +170,7 @@ matrix_outer_home:
             - 0
 matrix_pinky_bottom:
     x: 119
-    'y': 100
+    'y': -100
     r: 0
     meta:
         stagger: 0
@@ -253,7 +253,7 @@ matrix_pinky_bottom:
             - 10
 matrix_pinky_home:
     x: 119
-    'y': 119
+    'y': -81
     r: 0
     meta:
         stagger: 0
@@ -336,7 +336,7 @@ matrix_pinky_home:
             - 10
 matrix_pinky_top:
     x: 119
-    'y': 138
+    'y': -62
     r: 0
     meta:
         stagger: 0
@@ -419,7 +419,7 @@ matrix_pinky_top:
             - 0
 matrix_ring_bottom:
     x: 138
-    'y': 106.33333329999999
+    'y': -93.66666670000001
     r: 0
     meta:
         stagger: 6.333333333333333
@@ -503,7 +503,7 @@ matrix_ring_bottom:
             - 10
 matrix_ring_home:
     x: 138
-    'y': 125.33333329999999
+    'y': -74.66666670000001
     r: 0
     meta:
         stagger: 6.333333333333333
@@ -587,7 +587,7 @@ matrix_ring_home:
             - 10
 matrix_ring_top:
     x: 138
-    'y': 144.3333333
+    'y': -55.66666670000001
     r: 0
     meta:
         stagger: 6.333333333333333
@@ -671,7 +671,7 @@ matrix_ring_top:
             - 0
 matrix_middle_bottom:
     x: 157
-    'y': 112.66666670000001
+    'y': -87.33333329999999
     r: 0
     meta:
         stagger: 6.333333333333333
@@ -755,7 +755,7 @@ matrix_middle_bottom:
             - 10
 matrix_middle_home:
     x: 157
-    'y': 131.6666667
+    'y': -68.33333329999999
     r: 0
     meta:
         stagger: 6.333333333333333
@@ -839,7 +839,7 @@ matrix_middle_home:
             - 10
 matrix_middle_top:
     x: 157
-    'y': 150.6666667
+    'y': -49.33333329999999
     r: 0
     meta:
         stagger: 6.333333333333333
@@ -923,7 +923,7 @@ matrix_middle_top:
             - 0
 matrix_index_bottom:
     x: 176
-    'y': 106.33333329999999
+    'y': -93.66666670000001
     r: 0
     meta:
         stagger: -6.333333333333333
@@ -1007,7 +1007,7 @@ matrix_index_bottom:
             - 0
 matrix_index_home:
     x: 176
-    'y': 125.33333329999999
+    'y': -74.66666670000001
     r: 0
     meta:
         stagger: -6.333333333333333
@@ -1091,7 +1091,7 @@ matrix_index_home:
             - 10
 matrix_index_top:
     x: 176
-    'y': 144.3333333
+    'y': -55.66666670000001
     r: 0
     meta:
         stagger: -6.333333333333333
@@ -1175,7 +1175,7 @@ matrix_index_top:
             - 10
 matrix_inner_bottom:
     x: 195
-    'y': 106.33333329999999
+    'y': -93.66666670000001
     r: 0
     meta:
         stagger: 0
@@ -1258,7 +1258,7 @@ matrix_inner_bottom:
             - 10
 matrix_inner_home:
     x: 195
-    'y': 125.33333329999999
+    'y': -74.66666670000001
     r: 0
     meta:
         stagger: 0
@@ -1341,7 +1341,7 @@ matrix_inner_home:
             - 10
 matrix_inner_top:
     x: 195
-    'y': 144.3333333
+    'y': -55.66666670000001
     r: 0
     meta:
         stagger: 0
@@ -1423,13 +1423,13 @@ matrix_inner_top:
             - 10
             - 10
 thumbs_thumb_1_row_0:
-    x: 181
-    'y': 61.99999999999999
-    r: 0
+    x: 185
+    'y': -138
+    r: -20
     meta:
         stagger: 0
         spread: 19
-        splay: 0
+        splay: -20
         origin:
             - 0
             - 0
@@ -1454,6 +1454,7 @@ thumbs_thumb_1_row_0:
                 thumb_1:
                     key:
                         column_net: P3
+                        splay: -20
                     rows: {}
                     name: thumb_1
                 thumb_2:
@@ -1467,7 +1468,7 @@ thumbs_thumb_1_row_0:
                     name: thumb_2
                 thumb_3:
                     key:
-                        height: 2ky
+                        height: 1.75ky
                         origin:
                             - -9.5
                             - -9
@@ -1489,6 +1490,7 @@ thumbs_thumb_1_row_0:
         col:
             key:
                 column_net: P3
+                splay: -20
             rows: {}
             name: thumb_1
         row: row_0
@@ -1498,13 +1500,13 @@ thumbs_thumb_1_row_0:
             - 0
             - 0
 thumbs_thumb_1_row_1:
-    x: 181
-    'y': 81
-    r: 0
+    x: 191.4983827
+    'y': -120.1458402
+    r: -20
     meta:
         stagger: 0
         spread: 19
-        splay: 0
+        splay: -20
         origin:
             - 0
             - 0
@@ -1529,6 +1531,7 @@ thumbs_thumb_1_row_1:
                 thumb_1:
                     key:
                         column_net: P3
+                        splay: -20
                     rows: {}
                     name: thumb_1
                 thumb_2:
@@ -1542,7 +1545,7 @@ thumbs_thumb_1_row_1:
                     name: thumb_2
                 thumb_3:
                     key:
-                        height: 2ky
+                        height: 1.75ky
                         origin:
                             - -9.5
                             - -9
@@ -1564,6 +1567,7 @@ thumbs_thumb_1_row_1:
         col:
             key:
                 column_net: P3
+                splay: -20
             rows: {}
             name: thumb_1
         row: row_1
@@ -1573,9 +1577,9 @@ thumbs_thumb_1_row_1:
             - 10
             - 0
 thumbs_thumb_2_row_0:
-    x: 201.5628336
-    'y': 61.86326979999999
-    r: -10
+    x: 204.2759785
+    'y': -145.1613877
+    r: -30
     meta:
         stagger: 0
         spread: 19
@@ -1604,6 +1608,7 @@ thumbs_thumb_2_row_0:
                 thumb_1:
                     key:
                         column_net: P3
+                        splay: -20
                     rows: {}
                     name: thumb_1
                 thumb_2:
@@ -1617,7 +1622,7 @@ thumbs_thumb_2_row_0:
                     name: thumb_2
                 thumb_3:
                     key:
-                        height: 2ky
+                        height: 1.75ky
                         origin:
                             - -9.5
                             - -9
@@ -1652,9 +1657,9 @@ thumbs_thumb_2_row_0:
             - 0
             - 0
 thumbs_thumb_2_row_1:
-    x: 204.86214900000002
-    'y': 80.57461709999998
-    r: -10
+    x: 213.7759785
+    'y': -128.706905
+    r: -30
     meta:
         stagger: 0
         spread: 19
@@ -1683,6 +1688,7 @@ thumbs_thumb_2_row_1:
                 thumb_1:
                     key:
                         column_net: P3
+                        splay: -20
                     rows: {}
                     name: thumb_1
                 thumb_2:
@@ -1696,7 +1702,7 @@ thumbs_thumb_2_row_1:
                     name: thumb_2
                 thumb_3:
                     key:
-                        height: 2ky
+                        height: 1.75ky
                         origin:
                             - -9.5
                             - -9
@@ -1731,9 +1737,9 @@ thumbs_thumb_2_row_1:
             - 10
             - 10
 thumbs_thumb_3_row_0:
-    x: 224.61867670000004
-    'y': 65.5089567
-    r: -20
+    x: 227.18828260000004
+    'y': -149.6211253
+    r: -40
     meta:
         stagger: 0
         spread: 19
@@ -1748,7 +1754,7 @@ thumbs_thumb_3_row_0:
         rotate: 0
         adjust: {}
         width: 18
-        height: 38.1
+        height: 33.3375
         padding: 19
         autobind: 10
         skip: false
@@ -1762,6 +1768,7 @@ thumbs_thumb_3_row_0:
                 thumb_1:
                     key:
                         column_net: P3
+                        splay: -20
                     rows: {}
                     name: thumb_1
                 thumb_2:
@@ -1775,7 +1782,7 @@ thumbs_thumb_3_row_0:
                     name: thumb_2
                 thumb_3:
                     key:
-                        height: 2ky
+                        height: 1.75ky
                         origin:
                             - -9.5
                             - -9
@@ -1796,7 +1803,7 @@ thumbs_thumb_3_row_0:
             name: thumbs
         col:
             key:
-                height: 2ky
+                height: 1.75ky
                 origin:
                     - -9.5
                     - -9
@@ -1814,4 +1821,4 @@ thumbs_thumb_3_row_0:
             - 0
             - 0
             - 0
-            - 10
+            - 0

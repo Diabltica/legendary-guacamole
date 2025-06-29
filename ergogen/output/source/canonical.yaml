@@ -5,8 +5,8 @@ meta:
 units:
     kx: U
     ky: U
-    px: 2
-    py: 2
+    px: kx + 4
+    py: ky + 4
     plate_thickness: 1.5
     kcox: 14
     kcoy: 14
@@ -16,7 +16,7 @@ points:
             anchor:
                 shift:
                     - 100
-                    - 100
+                    - -100
             columns:
                 outer:
                     rows:
@@ -53,12 +53,13 @@ points:
             anchor:
                 ref: matrix_inner_bottom
                 shift:
-                    - -14
+                    - -10
                     - '-(7/3)u'
             columns:
                 thumb_1:
                     key:
                         column_net: P3
+                        splay: -20
                 thumb_2:
                     key:
                         origin:
@@ -68,7 +69,7 @@ points:
                         column_net: P4
                 thumb_3:
                     key:
-                        height: 2ky
+                        height: 1.75ky
                         origin:
                             - -9.5
                             - -9
@@ -85,7 +86,131 @@ points:
                     row_net: P10
                 row_1:
                     row_net: P9
-outlines: null
+outlines:
+    keys:
+        -
+            what: rectangle
+            where: true
+            bound: false
+            size:
+                - kx-0.5
+                - ky-0.5
+    board:
+        -
+            what: polygon
+            operation: stack
+            points:
+                -
+                    ref: matrix_outer_home
+                    shift:
+                        - '-0.5px'
+                        - 0.5py
+                -
+                    ref: matrix_pinky_top
+                    shift:
+                        - '-0.5px'
+                        - 0.5py
+                -
+                    ref: matrix_ring_top
+                    shift:
+                        - '-0.5px'
+                        - 0.5py
+                -
+                    ref: matrix_middle_top
+                    shift:
+                        - '-0.5px'
+                        - 0.5py
+                -
+                    ref: matrix_middle_top
+                    shift:
+                        - 0.5px
+                        - 0.5py
+                -
+                    ref: matrix_index_top
+                    shift:
+                        - 0.5px
+                        - 0.5py
+                -
+                    ref: matrix_inner_top
+                    shift:
+                        - 0.5px
+                        - 0.5py
+                -
+                    ref: matrix_inner_bottom
+                    shift:
+                        - 0.5px
+                        - '-0.5py'
+                -
+                    ref: thumbs_thumb_2_row_1
+                    shift:
+                        - 0.5px
+                        - 0.5py
+                -
+                    ref: thumbs_thumb_3_row_0
+                    shift:
+                        - 0.5px
+                        - 0.5py
+                -
+                    ref: thumbs_thumb_3_row_0
+                    shift:
+                        - 0.5px
+                        - '-0.5py'
+                -
+                    ref: thumbs_thumb_2_row_0
+                    shift:
+                        - 0.5px
+                        - '-0.5py'
+                -
+                    ref: thumbs_thumb_1_row_0
+                    shift:
+                        - 0.5px
+                        - '-0.5py'
+                -
+                    ref: thumbs_thumb_1_row_0
+                    shift:
+                        - '-0.5px'
+                        - '-0.5py'
+                -
+                    ref: thumbs_thumb_1_row_0
+                    shift:
+                        - '-0.5px'
+                        - '-0.5py'
+                -
+                    ref: matrix_ring_bottom
+                    shift:
+                        - 0
+                        - '-0.75py'
+                -
+                    ref: matrix_pinky_bottom
+                    shift:
+                        - '-0.5px'
+                        - '-0.5py'
+                -
+                    ref: matrix_outer_bottom
+                    shift:
+                        - '-0.5px'
+                        - '-0.5py'
+            fillet: 5
+    combo:
+        -
+            name: board
+        -
+            operation: stack
+            name: keys
+    plate:
+        -
+            what: rectangle
+            where: true
+            bound: false
+            size:
+                - kcox
+                - kcoy
+    combo_plate:
+        -
+            name: board
+        -
+            operation: stack
+            name: plate
 pcbs:
     legendaryGuacamole_pcb:
         footprints:
@@ -140,4 +265,11 @@ pcbs:
                         - 0
                         - 0
                     rotate: 0
+        outlines:
+            main:
+                outline: board
+    outlines_pcb:
+        outlines:
+            main:
+                outline: board
 cases: null

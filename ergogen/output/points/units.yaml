@@ -11,8 +11,8 @@ $default_padding: 19
 $default_autobind: 10
 kx: 19.05
 ky: 19.05
-px: 2
-py: 2
+px: 23.05
+py: 23.05
 plate_thickness: 1.5
 kcox: 14
 kcoy: 14

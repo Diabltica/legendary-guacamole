@@ -17,7 +17,7 @@ points:
   zones:
     matrix:
       anchor:
-        shift: [100,100]
+        shift: [100, -100]
       columns:
         outer:
           rows.top.skip: true
@@ -45,10 +45,11 @@ points:
     thumbs:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-14, -(7/3)u]
+        shift: [-10, -(7/3)u]
       columns:
         thumb_1:
           key.column_net: P3
+          key.splay: -20
         thumb_2:
           key.origin: [0, -9]
           key.splay: -10
@@ -106,6 +107,8 @@ outlines:
           shift: [-0.5px,-0.5py]
         - ref: thumbs_thumb_1_row_0
           shift: [-0.5px,-0.5py]
+        - ref: matrix_ring_bottom
+          shift: [0,-U/3-0.5py]
         - ref: matrix_pinky_bottom
           shift: [-0.5px,-0.5py]
         - ref: matrix_outer_bottom
@@ -171,4 +174,9 @@ pcbs:
           ref: matrix_inner_top
           shift: [0,0]
           rotate: 0
+  
+  outline_pcb:
+    outlines:
+          main:
+            outline: board
 cases:
