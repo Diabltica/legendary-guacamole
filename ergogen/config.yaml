@@ -20,7 +20,6 @@ points:
         shift: [100, -100]
       columns:
         outer:
-          rows.top.skip: true
           key.column_net: P0
         pinky:
           key.column_net: P1
@@ -45,11 +44,11 @@ points:
     thumbs:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-10, -(7/3)u]
+        shift: [-14, -(11/5)u]
       columns:
         thumb_1:
           key.column_net: P3
-          key.splay: -20
+          key.splay: -10
         thumb_2:
           key.origin: [0, -9]
           key.splay: -10
@@ -77,7 +76,7 @@ outlines:
     - what: polygon
       operation: stack
       points:
-        - ref: matrix_outer_home
+        - ref: matrix_outer_top
           shift: [-0.5px,0.5py]
         - ref: matrix_pinky_top
           shift: [-0.5px,0.5py]
@@ -130,6 +129,7 @@ outlines:
       name: plate
 pcbs:
   legendaryGuacamole_pcb:
+    template: kicad8
     footprints:
       mx:
         what: mx
