@@ -475,6 +475,12 @@
 		(uuid "c6a7cb44-ccf6-4ecd-94e2-4088858f097d")
 	)
 	(junction
+		(at 97.79 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d20dea9f-2e9e-4bd7-8f9b-a39207270258")
+	)
+	(junction
 		(at 97.79 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -491,6 +497,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbfe56f2-79a6-410d-bff3-9e3089853d76")
+	)
+	(junction
+		(at 85.09 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de134f13-e8c5-4afd-98c3-7fa80cc58ed3")
 	)
 	(junction
 		(at 161.29 66.04)
@@ -675,6 +687,17 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 59.69) (xy 123.19 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "1e9ea16e-10d7-4c66-9ac4-c49af6223ef9")
+	)
+	(wire
+		(pts
 			(xy 186.69 116.84) (xy 186.69 142.24)
 		)
 		(stroke
@@ -787,6 +810,16 @@
 			(color 194 0 194 1)
 		)
 		(uuid "36c43d4d-e523-48b5-a989-36fc3067fe4d")
+	)
+	(wire
+		(pts
+			(xy 97.79 45.72) (xy 97.79 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f1f849-9138-493b-9191-7561a9c313ac")
 	)
 	(wire
 		(pts
@@ -911,6 +944,16 @@
 			(color 194 0 194 1)
 		)
 		(uuid "51fa596d-a501-4720-b9f8-64315e663a2c")
+	)
+	(wire
+		(pts
+			(xy 92.71 40.64) (xy 85.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5225a34e-a9a8-4b9e-a221-36264bad6d4b")
 	)
 	(wire
 		(pts
@@ -1184,7 +1227,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 31.75) (xy 85.09 66.04)
+			(xy 85.09 31.75) (xy 85.09 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1351,6 +1394,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 40.64) (xy 85.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9db1de8-aa81-42db-94bc-be23fafba54d")
+	)
+	(wire
+		(pts
 			(xy 219.71 142.24) (xy 212.09 142.24)
 		)
 		(stroke
@@ -1361,7 +1414,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 59.69) (xy 123.19 59.69)
+			(xy 69.85 59.69) (xy 97.79 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1599,6 +1652,17 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 54.61) (xy 97.79 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "e8e20d52-02b0-4a99-a1a1-bca0563f56c5")
+	)
+	(wire
+		(pts
 			(xy 148.59 85.09) (xy 173.99 85.09)
 		)
 		(stroke
@@ -1820,7 +1884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07b6c6d1-efb8-4890-83ce-a63926d8d028")
-		(property "Reference" "S18"
+		(property "Reference" "S19"
 			(at 171.45 140.716 0)
 			(effects
 				(font
@@ -1872,7 +1936,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S18")
+					(reference "S19")
 					(unit 1)
 				)
 			)
@@ -1887,7 +1951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a649b83-8443-4e48-ad89-8b2de03bbd4b")
-		(property "Reference" "S17"
+		(property "Reference" "S18"
 			(at 222.25 39.116 0)
 			(effects
 				(font
@@ -1939,7 +2003,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S17")
+					(reference "S18")
 					(unit 1)
 				)
 			)
@@ -2023,7 +2087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a6ff770-9f2f-4f3f-a089-3b460a558f9a")
-		(property "Reference" "S3"
+		(property "Reference" "S4"
 			(at 120.65 89.916 0)
 			(effects
 				(font
@@ -2075,7 +2139,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S3")
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -2091,7 +2155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b86f54c-40de-4296-b256-e1f5dd6c0372")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 152.4 76.2 0)
 			(effects
 				(font
@@ -2143,7 +2207,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2160,7 +2224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fe5e00e-feed-49ee-bd44-0c655f0d16b1")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 127 101.6 0)
 			(effects
 				(font
@@ -2212,7 +2276,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2227,7 +2291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "216a1cd1-591b-40aa-a8d0-d102bab2ff27")
-		(property "Reference" "S20"
+		(property "Reference" "S21"
 			(at 196.85 140.716 0)
 			(effects
 				(font
@@ -2279,7 +2343,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S20")
+					(reference "S21")
 					(unit 1)
 				)
 			)
@@ -2296,7 +2360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23be0ffd-fbdd-46f8-a59a-71b0d9d88e5f")
-		(property "Reference" "D14"
+		(property "Reference" "D15"
 			(at 203.2 50.8 0)
 			(effects
 				(font
@@ -2348,7 +2412,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D14")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -2363,7 +2427,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fba4870-860a-4cfc-b27d-708f1459c969")
-		(property "Reference" "S10"
+		(property "Reference" "S11"
 			(at 171.45 64.516 0)
 			(effects
 				(font
@@ -2415,7 +2479,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S10")
+					(reference "S11")
 					(unit 1)
 				)
 			)
@@ -2430,7 +2494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45700ad0-8ce5-42f7-a01c-19b811a1f34f")
-		(property "Reference" "S4"
+		(property "Reference" "S5"
 			(at 120.65 64.516 0)
 			(effects
 				(font
@@ -2482,7 +2546,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S4")
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -2497,7 +2561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4af96250-bdf0-4431-b898-da74ff226b33")
-		(property "Reference" "S19"
+		(property "Reference" "S20"
 			(at 171.45 115.316 0)
 			(effects
 				(font
@@ -2549,7 +2613,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S19")
+					(reference "S20")
 					(unit 1)
 				)
 			)
@@ -2566,7 +2630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e1d48da-eec1-4cba-acf7-93c23ca1253c")
-		(property "Reference" "D16"
+		(property "Reference" "D17"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -2618,7 +2682,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D16")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -2633,7 +2697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "503264ae-e23e-47e4-b6cc-43b8398db489")
-		(property "Reference" "S5"
+		(property "Reference" "S6"
 			(at 120.65 39.116 0)
 			(effects
 				(font
@@ -2685,7 +2749,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S5")
+					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -2702,7 +2766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b5f7046-b24a-4820-a8ab-c4c7cc4cb10a")
-		(property "Reference" "D15"
+		(property "Reference" "D16"
 			(at 228.6 101.6 0)
 			(effects
 				(font
@@ -2754,7 +2818,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D15")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -2770,7 +2834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b38b63b-538c-47c0-a214-22a52d45cdfd")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 127 76.2 0)
 			(effects
 				(font
@@ -2822,7 +2886,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2839,7 +2903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c064a73-a9d7-45b9-8815-c8e3960a42dd")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 170.18 101.6 0)
 			(effects
 				(font
@@ -2891,7 +2955,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -2908,7 +2972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d3aa103-3cae-4b8d-ac38-f17a226217e4")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 144.78 50.8 0)
 			(effects
 				(font
@@ -2960,7 +3024,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2975,7 +3039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "787729d4-6330-4df0-bf52-e25d8c28922f")
-		(property "Reference" "S14"
+		(property "Reference" "S15"
 			(at 196.85 39.116 0)
 			(effects
 				(font
@@ -3027,7 +3091,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S14")
+					(reference "S15")
 					(unit 1)
 				)
 			)
@@ -3042,7 +3106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c310ecd-84ba-4686-8dcc-b9d8b4714f5e")
-		(property "Reference" "S15"
+		(property "Reference" "S16"
 			(at 222.25 89.916 0)
 			(effects
 				(font
@@ -3094,7 +3158,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S15")
+					(reference "S16")
 					(unit 1)
 				)
 			)
@@ -3111,7 +3175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89fa790e-f55f-4b3a-baa0-3af46aaa0d00")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 177.8 50.8 0)
 			(effects
 				(font
@@ -3163,7 +3227,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3178,7 +3242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a9388aa-734a-4bd2-820b-ca5fa65cef91")
-		(property "Reference" "S22"
+		(property "Reference" "S23"
 			(at 222.25 140.716 0)
 			(effects
 				(font
@@ -3230,7 +3294,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S22")
+					(reference "S23")
 					(unit 1)
 				)
 			)
@@ -3245,7 +3309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "911ceb95-e5e0-486e-b0d7-0bab35fada7a")
-		(property "Reference" "S9"
+		(property "Reference" "S10"
 			(at 171.45 89.916 0)
 			(effects
 				(font
@@ -3297,7 +3361,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S9")
+					(reference "S10")
 					(unit 1)
 				)
 			)
@@ -3314,7 +3378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92b859a1-1f9e-4a96-a3e2-e5daa25c0f3b")
-		(property "Reference" "D18"
+		(property "Reference" "D19"
 			(at 177.8 152.4 0)
 			(effects
 				(font
@@ -3366,7 +3430,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D18")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -3381,7 +3445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98b62d6a-4b53-4a09-ae51-585962f580c0")
-		(property "Reference" "S12"
+		(property "Reference" "S13"
 			(at 196.85 89.916 0)
 			(effects
 				(font
@@ -3433,7 +3497,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S12")
+					(reference "S13")
 					(unit 1)
 				)
 			)
@@ -3448,7 +3512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c412eb4-b776-4992-9833-5f189d3e8967")
-		(property "Reference" "S11"
+		(property "Reference" "S12"
 			(at 171.45 39.116 0)
 			(effects
 				(font
@@ -3500,7 +3564,75 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S11")
+					(reference "S12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 97.79 50.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e57609c-ef48-4dbe-b557-abac20b48377")
+		(property "Reference" "D3"
+			(at 101.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 101.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ComboDiode"
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b285ed31-5cef-4048-b07d-d1a28ccc2764")
+		)
+		(pin "1"
+			(uuid "0d77e51b-4255-4cdc-98b5-d43d7021ddc1")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3517,7 +3649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a762a299-e02c-4c7d-98d3-060d67796e0d")
-		(property "Reference" "D20"
+		(property "Reference" "D21"
 			(at 195.58 152.4 0)
 			(effects
 				(font
@@ -3569,7 +3701,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D20")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -3584,7 +3716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a766cccd-7b3c-4cf9-a57f-37529269eeeb")
-		(property "Reference" "S21"
+		(property "Reference" "S22"
 			(at 196.85 115.316 0)
 			(effects
 				(font
@@ -3636,7 +3768,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S21")
+					(reference "S22")
 					(unit 1)
 				)
 			)
@@ -3651,7 +3783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa8d0eb1-a6f9-4018-ae9e-6c85235f7365")
-		(property "Reference" "S13"
+		(property "Reference" "S14"
 			(at 196.85 64.516 0)
 			(effects
 				(font
@@ -3703,7 +3835,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S13")
+					(reference "S14")
 					(unit 1)
 				)
 			)
@@ -3787,7 +3919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad7af98a-4700-4858-a8cd-fd6ee8fffdb1")
-		(property "Reference" "S7"
+		(property "Reference" "S8"
 			(at 146.05 64.516 0)
 			(effects
 				(font
@@ -3839,7 +3971,74 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S7")
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 95.25 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adfd243a-498a-4bdd-9140-6cd5b7dba82f")
+		(property "Reference" "S3"
+			(at 95.25 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX"
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9673cd7-6b3d-4f37-8bc8-58e1ab36d872")
+		)
+		(pin "1"
+			(uuid "4f5577fd-f944-409f-893d-82dfb5dd40d5")
+		)
+		(instances
+			(project "legendary-guacamole-PCB"
+				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -3856,7 +4055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0bcf8f1-a702-4f7d-a3b0-8023f78175c3")
-		(property "Reference" "D22"
+		(property "Reference" "D23"
 			(at 228.6 152.4 0)
 			(effects
 				(font
@@ -3908,7 +4107,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D22")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -3925,7 +4124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b15f3981-a087-4d63-af9a-f3207d8c6e9b")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 177.8 76.2 0)
 			(effects
 				(font
@@ -3977,7 +4176,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -3994,7 +4193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b52b8be0-3c6e-4c85-b995-fa4eedbf8191")
-		(property "Reference" "D21"
+		(property "Reference" "D22"
 			(at 195.58 127 0)
 			(effects
 				(font
@@ -4046,7 +4245,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D21")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -4061,7 +4260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbf9dabb-f693-4b52-bacb-5747c61b3fe2")
-		(property "Reference" "S8"
+		(property "Reference" "S9"
 			(at 146.05 39.116 0)
 			(effects
 				(font
@@ -4113,7 +4312,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S8")
+					(reference "S9")
 					(unit 1)
 				)
 			)
@@ -4128,7 +4327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd4e66be-60a4-453e-ac9e-b78824978f14")
-		(property "Reference" "S16"
+		(property "Reference" "S17"
 			(at 222.25 64.516 0)
 			(effects
 				(font
@@ -4180,7 +4379,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S16")
+					(reference "S17")
 					(unit 1)
 				)
 			)
@@ -4263,7 +4462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d354abcb-4862-44a7-baa6-b3d52cd9b3e9")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 127 50.8 0)
 			(effects
 				(font
@@ -4315,7 +4514,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4332,7 +4531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4d6bf34-b945-4405-9743-d7d5bfab1f0d")
-		(property "Reference" "D19"
+		(property "Reference" "D20"
 			(at 177.8 127 0)
 			(effects
 				(font
@@ -4384,7 +4583,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D19")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -4400,7 +4599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6923bee-7824-4453-9957-84bc9ed04585")
-		(property "Reference" "D17"
+		(property "Reference" "D18"
 			(at 228.6 50.8 0)
 			(effects
 				(font
@@ -4452,7 +4651,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D17")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -4468,7 +4667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd1dc94b-92b3-450a-b6ff-faaeea436e41")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 152.4 101.6 0)
 			(effects
 				(font
@@ -4520,7 +4719,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -4537,7 +4736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e971fc73-34a4-4976-9950-662db7f6befd")
-		(property "Reference" "D13"
+		(property "Reference" "D14"
 			(at 203.2 76.2 0)
 			(effects
 				(font
@@ -4589,7 +4788,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D13")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -4604,7 +4803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea57d60d-00e4-4743-b19e-08894ec7b71b")
-		(property "Reference" "S6"
+		(property "Reference" "S7"
 			(at 146.05 89.916 0)
 			(effects
 				(font
@@ -4656,7 +4855,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "S6")
+					(reference "S7")
 					(unit 1)
 				)
 			)
@@ -4673,7 +4872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eff2c020-8cc9-4382-8c7a-07b56ff51644")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 203.2 101.6 0)
 			(effects
 				(font
@@ -4725,7 +4924,7 @@
 		(instances
 			(project "legendary-guacamole-PCB"
 				(path "/6f63a426-b66f-4058-b8a7-8a554c6a80f3/165fc51d-bec5-4cd6-983e-407dec992483"
-					(reference "D12")
+					(reference "D13")
 					(unit 1)
 				)
 			)
