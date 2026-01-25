@@ -89,9 +89,9 @@ outlines:
         - ref: matrix_index_top
           shift: [0.5px,0.5py]
         - ref: matrix_inner_top
-          shift: [0.5px,0.5py]
+          shift: [0.5px+22,0.5py]
         - ref: matrix_inner_bottom
-          shift: [0.5px,-0.5py]
+          shift: [0.5px+22,-0.5py]
         - ref: thumbs_thumb_2_row_1
           shift: [0.5px,0.5py]
         - ref: thumbs_thumb_3_row_0
@@ -130,6 +130,9 @@ outlines:
 pcbs:
   legendaryGuacamole_pcb:
     template: kicad8
+    outlines:
+          main:
+            outline: board
     footprints:
       mx:
         what: mx

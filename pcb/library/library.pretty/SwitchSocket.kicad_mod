@@ -196,11 +196,39 @@
 		(uuid "026d5d93-1792-4065-9161-6c99296fab7a")
 	)
 	(pad "" np_thru_hole circle
+		(at -3.81 -2.54)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "6bf7f667-3572-4886-a467-ad25864843a5")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.54 -5.08)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "3b344ae0-33b4-4277-81f0-5bfc33dd9cec")
+	)
+	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 3.9878 3.9878)
 		(drill 3.9878)
 		(layers "*.Cu" "*.Mask")
 		(uuid "a32055f3-2ba8-4322-8f97-0a9154fb8d3e")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.54 -5.08)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a2a2d5ca-1456-40a7-b0e9-3e8aa7d012cc")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.81 -2.54)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "39baa966-2b07-4648-b498-4959c0bb2271")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.08 0)
@@ -236,13 +264,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/library/Kailh Hotswap MX v22.step"
 		(offset
-			(xyz -0.55 2.9 -3.5)
+			(xyz 0.6 2.9 2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -0 180 -0)
 		)
 	)
 )
