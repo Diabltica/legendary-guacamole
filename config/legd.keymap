@@ -69,7 +69,7 @@
 &kp SQT    &kp Q  &kp R  &kp S      &kp T      &kp G         &kp SEMI  &kp N      &kp E          &kp I      &kp O       &kp SLASH
 &kp LCTRL  &kp W  &kp X  &kp C      &kp D      &kp V         &kp K     &kp H      &kp M          &kp COMMA  &kp DOT     &kp EXCL
                          &kp LSHFT  &kp BSPC                            &kp SPACE  &kp LSHFT
-                         &kp LALT   &kp LCTRL  &tdL1        &kp RET   &mo 2      &kp RIGHT_WIN
+                         &kp LALT   &kp LCTRL  &kp X        &kp RET   &mo 2      &kp RIGHT_WIN
             >;
         };
 
