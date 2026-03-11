@@ -65,11 +65,11 @@
 
         base {
             bindings = <
-&kp TAB    &kp Z  &kp A  &kp F      &kp P      &kp Q         &kp J     &kp L      &kp U          &kp Y      &kp ESCAPE  &bt BT_NXT
+&kp TAB    &kp Z  &kp A  &kp F      &kp P      &kp B         &kp J     &kp L      &kp U          &kp Y      &kp ESCAPE  &mo 4
 &kp SQT    &kp Q  &kp R  &kp S      &kp T      &kp G         &kp SEMI  &kp N      &kp E          &kp I      &kp O       &kp SLASH
 &kp LCTRL  &kp W  &kp X  &kp C      &kp D      &kp V         &kp K     &kp H      &kp M          &kp COMMA  &kp DOT     &kp EXCL
-                         &kp LSHFT  &kp BSPC                            &kp SPACE  &kp LSHFT
-                         &kp LALT   &kp LCTRL  &kp X        &kp RET   &mo 2      &kp RIGHT_WIN
+                         &kp LSHFT  &kp BSPC                           &kp SPACE  &kp LSHFT
+                         &kp LALT   &kp LCTRL  &tdL1         &kp RET   &mo 2      &kp RIGHT_WIN
             >;
         };
 
@@ -106,6 +106,16 @@
 &trans  &trans        &trans        &trans        &trans  &trans         &trans          &trans   &trans        &trans  &trans  &trans
                                     &trans        &trans                                 &trans   &trans
                                     &trans        &trans  &trans         &trans          &trans   &trans
+            >;
+        };
+
+        bt {
+            bindings = <
+&trans  &BT_SEL 0  &BT_SEL 1  &BT_SEL 2  &BT_SEL 3  &BT_SEL 4         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &BT_CLR    &BT_CLR    &BT_CLR    &BT_CLR    &BT_CLR           &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans     &trans                               &trans  &trans
+                              &trans     &trans     &trans            &trans  &trans  &trans
             >;
         };
     };
