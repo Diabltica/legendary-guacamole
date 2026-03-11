@@ -65,11 +65,17 @@
 
         base {
             bindings = <
-&kp TAB    &kp Z  &kp A  &kp F      &kp P      &kp B         &kp J     &kp L      &kp U          &kp Y      &kp ESCAPE  &mo 4
-&kp SQT    &kp Q  &kp R  &kp S      &kp T      &kp G         &kp SEMI  &kp N      &kp E          &kp I      &kp O       &kp SLASH
-&kp LCTRL  &kp W  &kp X  &kp C      &kp D      &kp V         &kp K     &kp H      &kp M          &kp COMMA  &kp DOT     &kp EXCL
-                         &kp LSHFT  &kp BSPC                           &kp SPACE  &kp LSHFT
-                         &kp LALT   &kp LCTRL  &tdL1         &kp RET   &mo 2      &kp RIGHT_WIN
+//╭─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────╮       ╭─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────╮
+   &kp TAB       &kp Z         &kp A         &kp F         &kp P            &kp B                    &kp J             &kp L           &kp U         &kp Y         &kp ESCAPE    &mo 4
+//├─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────┤       ├─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+   &kp SQT       &kp Q         &kp R         &kp S         &kp T            &kp G                    &kp SEMI          &kp N           &kp E         &kp I         &kp O         &kp SLASH
+//├─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────┤       ├─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+   &kp LCTRL     &kp W         &kp X         &kp C         &kp D            &kp V                    &kp K             &kp H           &kp M         &kp COMMA     &kp DOT       &kp EXCL
+//╰─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────╯       ╰─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────╯
+                                             &kp LSHFT     &kp BSPC                                                    &kp SPACE       &kp LSHFT
+//                                          ├─────────────┼────────────────┼────────────────╮       ╭─────────────────┼───────────────┼─────────────┤
+                                             &kp LALT      &kp LCTRL        &tdL1                    &kp RET           &mo 2           &kp RIGHT_WIN
+//                                          ╰─────────────┴────────────────┴────────────────╯       ╰─────────────────┴───────────────┴─────────────╯
             >;
         };
 
@@ -77,11 +83,17 @@
 
         nav_numpad {
             bindings = <
-&studio_unlock  &kp ESC    &kp HOME  &kp UP    &kp END          &kp PG_UP                &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_EQUAL     &kp BSPC
-&trans          &trans     &kp LEFT  &kp DOWN  &kp RIGHT_ARROW  &kp PG_DN                &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &trans
-&kp LSHFT       &kp LCTRL  &trans    &trans    &kp LT           &kp GREATER_THAN         &kp KP_DOT       &kp KP_N1        &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS      &kp KP_NUMLOCK
-                                     &trans    &trans                                                     &kp KP_NUMBER_0  &trans
-                                     &trans    &trans           &trans                   &kp RET          &trans           &trans
+//╭──────────────┼─────────────┼─────────────┼─────────────┼────────────────┼─────────────────╮     ╭─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼───────────────╮
+   &studio_unlock &kp ESC       &kp HOME      &kp UP        &kp END          &kp PG_UP               &kp KP_DIVIDE     &kp KP_NUMBER_7   &kp KP_NUMBER_8   &kp KP_NUMBER_9   &kp KP_EQUAL      &kp BSPC
+//├──────────────┼─────────────┼─────────────┼─────────────┼────────────────┼─────────────────┤     ├─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼───────────────┤
+   &trans         &trans        &kp LEFT      &kp DOWN      &kp RIGHT_ARROW  &kp PG_DN               &kp KP_MULTIPLY   &kp KP_NUMBER_4   &kp KP_NUMBER_5   &kp KP_NUMBER_6   &kp KP_SUBTRACT   &trans
+//├──────────────┼─────────────┼─────────────┼─────────────┼────────────────┼─────────────────┤     ├─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼───────────────┤
+   &kp LSHFT      &kp LCTRL     &trans        &trans        &kp LT           &kp GREATER_THAN        &kp KP_DOT        &kp KP_N1         &kp KP_NUMBER_2   &kp KP_NUMBER_3   &kp KP_PLUS       &kp KP_NUMLOCK
+//╰──────────────┼─────────────┼─────────────┼─────────────┼────────────────┼─────────────────╯     ╰─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼───────────────╯
+                                              &trans        &trans                                                     &kp KP_NUMBER_0   &trans
+//                                           ├─────────────┼────────────────┼─────────────────╮     ╭─────────────────┼─────────────────┼─────────────────┤
+                                              &trans        &trans           &trans                  &kp RET           &trans            &trans
+//                                           ╰─────────────┴────────────────┴─────────────────╯     ╰─────────────────┴─────────────────┴─────────────────╯
             >;
         };
 
@@ -89,11 +101,17 @@
 
         symbole {
             bindings = <
-&trans  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &trans  &trans        &kp BACKSLASH  &kp DOUBLE_QUOTES  &kp DOLLAR     &kp ASTERISK    &kp TILDE  &trans
-&trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans  &trans        &kp SLASH      &kp SINGLE_QUOTE   &kp AMPERSAND  &kp MINUS       &trans     &trans
-&trans  &trans                 &trans             &trans           &trans  &trans        &kp PIPE       &kp GRAVE          &kp HASH       &kp UNDERSCORE  &trans     &trans
-                                                  &trans           &trans                               &trans             &trans
-                                                  &trans           &trans  &trans        &trans         &trans             &trans
+//╭────────┼──────────────────────┼──────────────────┼────────────────┼─────────┼────────╮      ╭────────────────┼───────────────────┼─────────────────┼─────────────────┼────────────┼───────────╮
+   &trans   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &trans    &trans          &kp BACKSLASH    &kp DOUBLE_QUOTES   &kp DOLLAR        &kp ASTERISK      &kp TILDE    &trans
+//├────────┼──────────────────────┼──────────────────┼────────────────┼─────────┼────────┤      ├────────────────┼───────────────────┼─────────────────┼─────────────────┼────────────┼───────────┤
+   &trans   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans    &trans          &kp SLASH        &kp SINGLE_QUOTE    &kp AMPERSAND     &kp MINUS         &trans       &trans
+//├────────┼──────────────────────┼──────────────────┼────────────────┼─────────┼────────┤      ├────────────────┼───────────────────┼─────────────────┼─────────────────┼────────────┼───────────┤
+   &trans   &trans                 &trans             &trans           &trans    &trans          &kp PIPE         &kp GRAVE           &kp HASH          &kp UNDERSCORE    &trans       &trans
+//╰────────┼──────────────────────┼──────────────────┼────────────────┼─────────┼────────╯      ╰────────────────┼───────────────────┼─────────────────┼─────────────────┼────────────┼───────────╯
+                                                      &trans           &trans                                     &trans              &trans
+//                                                   ├────────────────┼─────────┼────────╮      ╭────────────────┼───────────────────┼─────────────────┤
+                                                      &trans           &trans    &trans          &trans           &trans              &trans
+//                                                   ╰────────────────┴─────────┴────────╯      ╰────────────────┴───────────────────┴─────────────────╯
             >;
         };
 
@@ -101,21 +119,34 @@
 
         accent {
             bindings = <
-&trans  &acc_e_acute  &acc_e_grave  &acc_a_grave  &trans  &trans         &acc_c_cedilla  &acc_oe  &acc_u_grave  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans  &trans         &trans          &trans   &trans        &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans  &trans         &trans          &trans   &trans        &trans  &trans  &trans
-                                    &trans        &trans                                 &trans   &trans
-                                    &trans        &trans  &trans         &trans          &trans   &trans
+//╭─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────╮       ╭─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────╮
+   &trans        &acc_e_acute  &acc_e_grave  &acc_a_grave  &trans           &trans                   &acc_c_cedilla    &acc_oe         &acc_u_grave  &trans        &trans        &trans
+//├─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────┤       ├─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+   &trans        &trans        &trans        &trans        &trans           &trans                   &trans            &trans          &trans        &trans        &trans        &trans
+//├─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────┤       ├─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+   &trans        &trans        &trans        &trans        &trans           &trans                   &trans            &trans          &trans        &trans        &trans        &trans
+//╰─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────╯       ╰─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────╯
+                                             &trans        &trans                                                      &trans          &trans
+//                                          ├─────────────┼────────────────┼────────────────╮       ╭─────────────────┼───────────────┼─────────────┤
+                                             &trans        &trans           &trans                   &trans            &trans          &trans
+//                                          ╰─────────────┴────────────────┴────────────────╯       ╰─────────────────┴───────────────┴─────────────╯
             >;
         };
 
+        // --- LAYER BLUETOOTH ---
         bt {
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &bt BT_CLR    &bt BT_CLR    &bt BT_CLR    &bt BT_CLR    &bt BT_CLR           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans               &trans  &trans  &trans  &trans  &trans  &trans
-                                    &trans        &trans                                     &trans  &trans
-                                    &trans        &trans        &trans               &trans  &trans  &trans
+//╭─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────╮       ╭─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────╮
+   &trans        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4             &trans            &trans          &trans        &trans        &trans        &trans
+//├─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────┤       ├─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+   &trans        &bt BT_CLR    &bt BT_CLR    &bt BT_CLR    &bt BT_CLR       &bt BT_CLR               &trans            &trans          &trans        &trans        &trans        &trans
+//├─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────┤       ├─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+   &trans        &trans        &trans        &trans        &trans           &trans                   &trans            &trans          &trans        &trans        &trans        &trans
+//╰─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────╯       ╰─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────╯
+                                             &trans        &trans                                                      &trans          &trans
+//                                          ├─────────────┼────────────────┼────────────────╮       ╭─────────────────┼───────────────┼─────────────┤
+                                             &trans        &trans           &trans                   &trans            &trans          &trans
+//                                          ╰─────────────┴────────────────┴────────────────╯       ╰─────────────────┴───────────────┴─────────────╯
             >;
         };
     };
