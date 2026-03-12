@@ -15,56 +15,34 @@
 
     combos {
         compatible = "zmk,combos";
-        combo_esc {
+        combo_e_accute {
             timeout-ms = <50>;
-            key-positions = <1 2>;
-            bindings = <&acc_e_acute>;
+            key-positions = <19 20>;
+            bindings = <&kp N2>;
+        };
+        combo_e_grave {
+            timeout-ms = <50>;
+            key-positions = <20 21>;
+            bindings = <&kp N7>;
+        };
+        combo_a_grave {
+            timeout-ms = <50>;
+            key-positions = <2 3>;
+            bindings = <&kp N10>;
+        };
+        combo_c_cedilla {
+            timeout-ms = <50>;
+            key-positions = <27 28>;
+            bindings = <&kp N9>;
+        };
+        combo_u_grave {
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+            bindings = <&kp SQT>;
         };
     };
 
     macros {
-        // --- ACCENTS ---
-        acc_e_acute: acc_e_acute {
-            compatible = "zmk,behavior-macro";
-            label = "ACC_E_ACUTE";
-            #binding-cells = <0>;
-            bindings = <&kp N2>;
-        };
-
-        acc_e_grave: acc_e_grave {
-            compatible = "zmk,behavior-macro";
-            label = "ACC_E_GRAVE";
-            #binding-cells = <0>;
-            bindings = <&kp GRAVE &kp E>;
-        };
-
-        acc_a_grave: acc_a_grave {
-            compatible = "zmk,behavior-macro";
-            label = "ACC_A_GRAVE";
-            #binding-cells = <0>;
-            bindings = <&kp GRAVE &kp A>;
-        };
-
-        acc_u_grave: acc_u_grave {
-            compatible = "zmk,behavior-macro";
-            label = "ACC_U_GRAVE";
-            #binding-cells = <0>;
-            bindings = <&kp GRAVE &kp U>;
-        };
-
-        acc_c_cedilla: acc_c_cedilla {
-            compatible = "zmk,behavior-macro";
-            label = "ACC_C_CEDILLA";
-            #binding-cells = <0>;
-            bindings = <&kp SEMI &kp C>;
-        };
-
-        acc_oe: acc_oe {
-            compatible = "zmk,behavior-macro";
-            label = "ACC_OE";
-            #binding-cells = <0>;
-            bindings = <&kp O &kp E>;
-        };
     };
 
     keymap {
@@ -77,7 +55,7 @@
 //╭─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────╮       ╭─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────╮
    &kp TAB       &kp Z         &kp A         &kp F         &kp P            &kp B                    &kp J             &kp L           &kp U         &kp Y         &kp ESCAPE    &mo 4
 //├─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────┤       ├─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-   &kp SQT       &kp Q         &kp R         &kp S         &kp T            &kp G                    &kp SEMI          &kp N           &kp E         &kp I         &kp O         &kp SLASH
+   &kp N4       &kp Q         &kp R         &kp S         &kp T            &kp G                    &kp SEMI          &kp N           &kp E         &kp I         &kp O         &kp SLASH
 //├─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────┤       ├─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
    &kp LCTRL     &kp W         &kp X         &kp C         &kp D            &kp V                    &kp K             &kp H           &kp M         &kp COMMA     &kp DOT       &kp EXCL
 //╰─────────────┼─────────────┼─────────────┼─────────────┼────────────────┼────────────────╯       ╰─────────────────┼───────────────┼─────────────┼─────────────┼─────────────┼─────────────╯
