@@ -28,7 +28,7 @@
             compatible = "zmk,behavior-macro";
             label = "ACC_E_ACUTE";
             #binding-cells = <0>;
-            bindings = <&kp EQUAL &kp E>;
+            bindings = <&macro_tap &kp RA(E) &kp E>;
         };
 
         acc_e_grave: acc_e_grave {
