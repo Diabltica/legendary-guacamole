@@ -28,7 +28,7 @@
         combo_a_grave {
             timeout-ms = <50>;
             key-positions = <2 3>;
-            bindings = <&kp N10>;
+            bindings = <&kp N0>;
         };
         combo_c_cedilla {
             timeout-ms = <50>;
