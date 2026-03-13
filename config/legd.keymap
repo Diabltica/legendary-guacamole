@@ -19,31 +19,37 @@
             timeout-ms = <50>;
             key-positions = <19 20>;
             bindings = <&kp N2>;
+            layers = <0>;
         };
         combo_e_grave {
             timeout-ms = <50>;
             key-positions = <20 21>;
             bindings = <&kp N7>;
+            layers = <0>;
         };
         combo_a_grave {
             timeout-ms = <50>;
             key-positions = <13 14>;
             bindings = <&kp N0>;
+            layers = <0>;
         };
         combo_arobase {
             timeout-ms = <50>;
             key-positions = <13 2>;
             bindings = <&kp RA(N0)>;
+            layers = <0>;
         };
         combo_c_cedilla {
             timeout-ms = <50>;
             key-positions = <27 28>;
             bindings = <&kp N9>;
+            layers = <0>;
         };
         combo_u_grave {
             timeout-ms = <50>;
             key-positions = <8 9>;
             bindings = <&kp SQT>;
+            layers = <0>;
         };
     };
 
