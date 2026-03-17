@@ -51,6 +51,18 @@
             bindings = <&kp SQT>;
             layers = <0>;
         };
+        combo_ampersand {
+            timeout-ms = <50>;
+            key-positions = <20 33>;
+            bindings = <&kp N1>;
+            layers = <0>;
+        };
+        combo_escape {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESCAPE>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -82,7 +94,7 @@
         nav_numpad {
             bindings = <
 //╭──────────────┼─────────────┼─────────────┼─────────────┼────────────────┼─────────────────╮     ╭─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼───────────────╮
-   &studio_unlock &kp ESC       &kp HOME      &kp UP        &kp END          &kp PG_UP               &kp KP_DIVIDE     &kp KP_NUMBER_7   &kp KP_NUMBER_8   &kp KP_NUMBER_9   &kp EQUAL         &kp BSPC
+   &trans         &kp ESC       &kp HOME      &kp UP        &kp END          &kp PG_UP               &kp KP_DIVIDE     &kp KP_NUMBER_7   &kp KP_NUMBER_8   &kp KP_NUMBER_9   &kp EQUAL         &kp BSPC
 //├──────────────┼─────────────┼─────────────┼─────────────┼────────────────┼─────────────────┤     ├─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼───────────────┤
    &trans         &trans        &kp LEFT      &kp DOWN      &kp RIGHT_ARROW  &kp PG_DN               &kp KP_MULTIPLY   &kp KP_NUMBER_4   &kp KP_NUMBER_5   &kp KP_NUMBER_6   &kp KP_SUBTRACT   &trans
 //├──────────────┼─────────────┼─────────────┼─────────────┼────────────────┼─────────────────┤     ├─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼───────────────┤
